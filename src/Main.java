@@ -181,31 +181,45 @@ public class Main {
 //        }
 //
 //        2D ArrayList
+//
+//        ArrayList<ArrayList<String>> groceryList = new ArrayList<>();
+//
+//        ArrayList<String> produceList = new ArrayList<>();
+//        produceList.add("apples");
+//        produceList.add("broccoli");
+//        produceList.add("peppers");
+//
+//        ArrayList<String> meatList = new ArrayList<>();
+//        meatList.add("chicken");
+//        meatList.add("fish");
+//        meatList.add("steak");
+//
+//        ArrayList<String> snackList = new ArrayList<>();
+//        snackList.add("chips");
+//        snackList.add("doughnuts");
+//        snackList.add("candy");
+//
+//        groceryList.add(produceList);
+//        groceryList.add(meatList);
+//        groceryList.add(snackList);
+//
+//
+//        System.out.println(groceryList);
+//
+//        System.out.println(groceryList.get(1).get(1));
+//
+//        ---> For-Each Loop
+//
+//        ArrayList<String> xmen = new ArrayList<String>();
+//        xmen.add("Cyclops");
+//        xmen.add("Storm");
+//        xmen.add("Wolverine");
+//
+//
+//        for (String i : xmen) {
+//            System.out.println(i);
+//        }
+//
 
-        ArrayList<ArrayList<String>> groceryList = new ArrayList<>();
-
-        ArrayList<String> produceList = new ArrayList<>();
-        produceList.add("apples");
-        produceList.add("broccoli");
-        produceList.add("peppers");
-
-        ArrayList<String> meatList = new ArrayList<>();
-        meatList.add("chicken");
-        meatList.add("fish");
-        meatList.add("steak");
-
-        ArrayList<String> snackList = new ArrayList<>();
-        snackList.add("chips");
-        snackList.add("doughnuts");
-        snackList.add("candy");
-
-        groceryList.add(produceList);
-        groceryList.add(meatList);
-        groceryList.add(snackList);
-
-
-        System.out.println(groceryList);
-
-        System.out.println(groceryList.get(1).get(1));
     }
 }
